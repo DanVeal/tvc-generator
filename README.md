@@ -1,13 +1,9 @@
-# 30s TVC Generator
+# 30s TVC Generator (No MoviePy)
 
-This Streamlit app generates 30-second video commercials using:
-- A brand logo and offer message
-- Up to 3 product images, names, and prices
-- Automatically generated voice-over
-- A structured layout and background colour
+This Streamlit app generates a 30-second video commercial using:
+- Brand logo and offer message
+- Up to 3 products with image/name/price
+- Voice-over generated using gTTS
+- Final video rendered with ffmpeg
 
-## How to Use
-1. Upload your brand logo
-2. Add up to 3 product images with names & prices
-3. Set an offer and call-to-action message
-4. Click "Generate" to export a 30s .mp4 commercial
+### Runs on Streamlit Cloud – no MoviePy required.
